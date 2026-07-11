@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikulski Artwood - Rękodzieło z Drewna</title>
+    <style>
+        /* Stylistyka dopasowana do klimatu drewna i natury */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f4eb; /* Jasnobeżowe, naturalne tło */
+            color: #3e2723; /* Ciemnobrązowy, czytelny tekst */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #3e2723;
+            color: #d7ccc8;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+
+        /* Menu nawigacyjne */
+        nav {
+            background-color: #5d4037;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #f7f4eb;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            display: inline-block;
+            font-size: 0.9em;
+        }
+
+        nav a:hover {
+            background-color: #8d6e63;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Sekcja O Mnie / Filozofia */
+        .intro-box {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            border-left: 5px solid #8d6e63;
+        }
+
+        h2 {
+            color: #5d4037;
+            border-bottom: 2px solid #d7ccc8;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            text-transform: uppercase;
+            font-size: 1.6em;
+        }
+
+        h3 {
+            color: #8d6e63;
+            margin-top: 25px;
+            font-size: 1.2em;
+        }
+
+        /* Układ Galerii - Kafelki */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Szare tło imitujące przyszłe zdjęcie */
+        .photo-placeholder {
+            background-color: #e0e0e0;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #757575;
+            font-size: 0.9em;
+            font-style: italic;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .item-info {
+            padding: 15px;
+        }
+
+        .item-info h4 {
+            margin: 0 0 10px 0;
+            color: #3e2723;
+            font-size: 1.1em;
+        }
+
+        .item-info p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #6d4c41;
+        }
+
+        /* Sekcja Kontakt */
+        .contact-box {
+            background-color: #3e2723;
+            color: #f7f4eb;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .contact-box a {
+            color: #ffcc80;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #8d6e63;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mikulski Artwood</h1>
+        <p>Pasja wyciosana z kawałka drewna</p>
+    </header>
+
+    <nav>
+        <a href="#o-mnie">O twórczości</a>
+        <a href="#rzezby">Rzeźbiarstwo</a>
+        <a href="#lyzeczki">Łyżki Obrzędowe</a>
+        <a href="#stolarka">Stolarka użytkowa</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Sekcja O Mnie -->
+        <section id="o-mnie" class="intro-box">
+            <h2>Moje podejście do drewna</h2>
+            <p>Drewno to żywy materiał, który uczy cierpliwości. Każdy kawałek – czy to twardy dąb, jesion, czy wdzięczna lipa – ma swoją własną historię i duszę, którą staram się wydobyć za pomocą dłuta i piły.</p>
+            <p><strong>Ważna informacja dla odwiedzających:</strong> Nie tworzę prac na indywidualne zamówienie pod dyktando. Pracuję we własnym tempie, dając ponieść się wyobraźni. Na tej stronie prezentuję wyłącznie **gotowe wyroby**. Jeśli jakaś praca przypadnie Ci do gustu i poruszy Twoje serce – możesz ją ode mnie odkupić. W przypadku sprzedaży, dany wzór mogę w przyszłości powtórzyć w podobnej formie.</p>
+        </section>
+
+        <!-- Sekcja Rzeźbiarstwo -->
+        <section id="rzezby">
+            <h2>Rzeźba i płaskorzeźba</h2>
+            
+            <h3>Duże formy ogrodowe</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie rzeźby ogrodowej]</div>
+                    <div class="item-info">
+                        <h4>Rzeźba Ogrodowa</h4>
+                        <p>Większa forma plenerowa, idealnie komponująca się z zielenią ogrodu.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie rzeźby ogrodowej]</div>
+                    <div class="item-info">
+                        <h4>Słupek ozdobny / Figura</h4>
+                        <p>Wyciosana z masywnego pnia, zabezpieczona przed warunkami atmosferycznymi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Mniejsze rzeźby i formy domowe</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie małej rzeźby]</div>
+                    <div class="item-info">
+                        <h4>Płaskorzeźba ścienna</h4>
+                        <p>Motywy tradycyjne lub historyczne, dłuto w dębowej lub lipowej desce.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie figurki]</div>
+                    <div class="item-info">
+                        <h4>Figurka / Kapliczka</h4>
+                        <p>Niewielka forma rzeźbiarska dedykowana do wnętrz.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Prace dla dzieci / Zabawki</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie przedmiotu dla dzieci]</div>
+                    <div class="item-info">
+                        <h4>Drewniany kuferek</h4>
+                        <p>Ręcznie wykonana, bezpieczna i solidna skrzyneczka na skarby dla najmłodszych.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja Łyżeczki -->
+        <section id="lyzeczki">
+            <h2>Łyżki Obrzędowe i Dekoracyjne</h2>
+            <p>Tradycyjne łyżki drewniane, inspirowane dawnymi motywami kulturowymi i słowiańską mitologią. Każda łyżka jest unikalna, bogato zdobiona snycersko.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie łyżki]</div>
+                    <div class="item-info">
+                        <h4>Łyżka z motywem tradycyjnym</h4>
+                        <p>Ręcznie strugana, wykończona naturalnymi olejami bezpiecznymi dla zdrowia.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie łyżki obrzędowej]</div>
+                    <div class="item-info">
+                        <h4>Czerpak / Łyżka dekoracyjna</h4>
+                        <p>Głębokie rzeźbienie w drewnie liściastym, idealna ozdoba rustykalnej kuchni.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja Stolarka -->
+        <section id="stolarka">
+            <h2>Stolarka użytkowa</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie stołu]</div>
+                    <div class="item-info">
+                        <h4>Solidny Stół Ogrodowy</h4>
+                        <p>Masywny stół z grubego drewna, zabezpieczony przed słońcem i deszczem.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">[Miejsce na zdjęcie donicy]</div>
+                    <div class="item-info">
+                        <h4>Doniczki i Gazony</h4>
+                        <p>Ozdobne skrzynki drewniane, które pięknie wyeksponują kwiaty i krzewy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja Kontakt -->
+        <section id="kontakt" class="contact-box">
+            <h2>Zainteresowany moją twórczością?</h2>
+            <p>Jeśli spodobała Ci się któraś z gotowych prac lub chcesz zapytać o aktualnie dostępne wyroby, napisz do mnie:</p>
+            <p style="font-size: 1.3em; margin: 20px 0;">
+                📧 E-mail: <a href="mailto:twój-email@gmail.com">twój-email@gmail.com</a>
+            </p>
+            <p style="font-size: 0.9em; color: #bcaaa4;">Prace można obejrzeć osobiście po wcześniejszym ustaleniu terminu.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mikulski Artwood. Wszelkie prawa zastrzeżone. Rękodzieło z pasją.</p>
+    </footer>
+
+</body>
+</html>
